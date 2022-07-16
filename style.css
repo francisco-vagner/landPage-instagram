@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+body{
+    width: 100px;
+    min-height: 100px;
+    background-color: rgb(243)(243)(243);
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+
+}
+.instagran.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+
+}
+.instagran-phone{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.instagran-phone img{
+    height: 50%;
+}
